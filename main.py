@@ -5,14 +5,15 @@ window.title("Students tracker App")
 question_label = Label(text="student tracker")
 question_label.pack()
 
-word_label = Tk.Label(text="(WORD)")
-word_label.pack()
+btn = Button(window, text = 'EXIT !', 
+                command = window.destroy) 
 
-yes_button = Tk.Button(WORD_screen, text="student tracker")
-yes_buttom.pack()
+btn.pack(side = 'top')  
 
-no_button = Tk.Button(WORD_screen, text="quit")
-no_buttom.pack()
+btn = Button(window, text = 'continue !', 
+                command = window.destroy)
+
+btn.pack(side = 'top')  
+
 
 window.mainloop()
- 
