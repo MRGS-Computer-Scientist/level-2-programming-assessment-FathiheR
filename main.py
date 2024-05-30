@@ -19,4 +19,9 @@ btn.pack(side = 'top')
 btn = Button(window, text = 'continue !', command = window.destroy)
 btn.pack(side = 'top')  
 
+from tkinter import *
+newwindow = Tk()
+window.geometry("300x600")
+
+
 window.mainloop()
