@@ -5,7 +5,7 @@ bg_color="#4895c2"
 
 from tkinter import *
 window = Tk()
-window.geometry("300x600")
+window.geometry("800x800")
 window.configure(bg=bg_color)
 window.title("Students tracker App")
 question_label = Label(text="student tracker")
@@ -21,7 +21,7 @@ btn.pack(side = 'top')
 
 from tkinter import *
 newwindow = Tk()
-window.geometry("300x600")
+newwindow.geometry("800x800")
 
 
 window.mainloop()
