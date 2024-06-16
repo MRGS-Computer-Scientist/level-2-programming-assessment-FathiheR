@@ -12,7 +12,7 @@ question_label.grid(row=0, column=0, columnspan=2)
 btn = Button(window, text = 'Continue !', command = window.destroy)
 btn.grid(row=2, column=0, columnspan=2)
 
-btn = Button(window, text = 'EXIT !', command = window) 
+btn = Button(window, text = 'EXIT !', command = window.destroy) 
 btn.grid(row=1, column=0, columnspan=2)  
 
 newwindow = Tk()
